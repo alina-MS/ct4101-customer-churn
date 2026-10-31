@@ -47,10 +47,11 @@ The baseline model predicts that every customer will stay. Although it achieves 
 
 ## Running the Project
 
-1. Install the packages listed in `requirements.txt`.
-2. Open `customer_churn_milestone2.ipynb` in Google Colab or Jupyter Notebook.
-3. Run the notebook cells in order from top to bottom.
-4. The notebook downloads the dataset from the IBM GitHub source and generates the baseline evaluation results.
+1. Download or clone this GitHub repository.
+2. Install the required Python packages using `pip install -r requirements.txt`.
+3. Open `notebooks/customer_churn_milestone2.ipynb` in Google Colab or Jupyter Notebook.
+4. Run all notebook cells from top to bottom.
+5. The notebook automatically downloads the IBM Telco Customer Churn dataset, performs data exploration and preprocessing, trains the baseline model and generates evaluation results.
 
 An internet connection is required to download the dataset.
 
